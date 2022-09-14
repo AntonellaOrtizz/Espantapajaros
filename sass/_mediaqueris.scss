@@ -1,0 +1,22 @@
+@media (min-width:500px){
+    .discos{
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+@media (min-width:768px){
+    .discos{
+        align-items: center;
+    }
+}
+
+@media (min-width:1024px){
+    .discos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}

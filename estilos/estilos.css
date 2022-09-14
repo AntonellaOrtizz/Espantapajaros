@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.nosotros {
+  background-image: url(../multimedia/backgroundOp2.jpg);
+}
+
+.discos {
+  background-color: rgb(15, 14, 14);
+}
+
+nav {
+  background-color: rgb(23, 25, 23);
+}
+
+.dropdown-menu {
+  background-color: rgb(23, 25, 23);
+}
+
+.dropdown-item {
+  color: whitesmoke;
+}
+
+.us {
+  border: solid 8px black;
+  background-color: black;
+  margin: 20px 10px 20px 10px;
+}
+
+.formulario {
+  border: solid 8px black;
+  background-color: black;
+  margin: 40px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  font-family: "IM Fell English SC", serif;
+  color: whitesmoke;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(23, 25, 23);
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "IM Fell English SC", serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: azure;
+}
+
+h2 {
+  font-family: "IM Fell English SC", serif;
+  color: azure;
+}
+
+p {
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.img-index {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.logo-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.espantapajaros {
+  border: 5px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoclip {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden;
+}
+
+.videoclip iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*tamaños de cajas contenedoras segun el contenido*/
+.caja-s {
+  border: solid 8px black;
+  background-color: black;
+  margin: 20px 0px 20px 10px;
+  height: 900px;
+  width: 500px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.caja-m {
+  border: solid 8px black;
+  background-color: black;
+  margin: 20px 0px 20px 10px;
+  height: 700px;
+  width: 500px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.caja-l {
+  border: solid 8px black;
+  background-color: black;
+  margin: 20px 0px 20px 10px;
+  height: 1050px;
+  width: 500px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.caja-i {
+  border: solid 8px black;
+  background-color: black;
+  margin: 20px 0px 20px 10px;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+@media (min-width: 500px) {
+  .discos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .discos {
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .discos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=estilos.css.map */
